@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "@tsconfig/strictest/tsconfig"
+  ],
+  "compilerOptions": {
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "target": "esnext",
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "incremental": true,
+    "inlineSourceMap": true
+  }
+}
