@@ -12,5 +12,8 @@
     "inlineSourceMap": true,
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true
-  }
+  },
+  "exclude": [
+    "${configDir}/eslint.config.js"
+  ]
 }
